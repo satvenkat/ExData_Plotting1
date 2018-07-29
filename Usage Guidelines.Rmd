@@ -1,0 +1,19 @@
+---
+title: "Usage Instructions"
+author: "Satish Venkataraman"
+date: "July 28, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## FIRST RUN THE COURSE PROJECT1.R File
+This file contains the code to read the data, clean the data as needed
+
+## NEXT, RUN the CREATEPLOT.R File
+This has some helper functions, basically putting a wrapper around some of the base functions to  just use what I needed.
+
+## NEXT, You can run each of the Plot R files in any order.
+These have the plots created individually as well as by callign the helper functions.  Personally, i liked creating the helper functions and it made it less clutter.
